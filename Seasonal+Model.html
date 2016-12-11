@@ -13551,7 +13551,7 @@ x/w/GQr/OFaw/JYAAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Another thing we notice is there seems to be a pattern to the average percent change in price that we might be able to bucket naturally. Again, the reason we choose to go this route is user-friendliness for sellers and buyers in the UI. Let's look at a distribution plot of perecent price differences.</p>
+<p>Another thing we notice is there seems to be a pattern to the average percent change in price that we might be able to bucket naturally. Again, the reason we choose to go this route is user-friendliness for sellers and buyers in the UI. Let's look at a distribution plot of percent price differences.</p>
 
 </div>
 </div>
@@ -14156,7 +14156,7 @@ bK5agwAAAABJRU5ErkJggg==
 <p>From these buckets we'll create a new classifier, price_change_category, to cover the following price changes:</p>
 <ul>
 <li>-10%</li>
-<li>Baseline Price</li>
+<li>Base Price</li>
 <li>+10%</li>
 <li>+20%</li>
 <li>+40% (New Year's Holiday)</li>
@@ -15497,7 +15497,7 @@ QmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The descision tree classifier has the best overall accuracy with the best F1 score, just a bit better than random forest. And because it is less computationally expensive, we'll focus on this model to optimize the model parameters with grid search cross-validation.</p>
+<p>The decision tree classifier has the best overall accuracy with the best F1 score, just a bit better than random forest. And because it is less computationally expensive, we'll focus on this model to optimize the model parameters with grid search cross-validation.</p>
 
 </div>
 </div>
@@ -15546,7 +15546,7 @@ QmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>After applying exhuastive grid search cross-validation, we find that the default decision tree model performs best. This is the model we'll use to recommend price discount categories based on the rental dates.</p>
+<p>After applying exhaustive grid search cross-validation, we find that the default decision tree model performs best. This is the model we'll use to recommend price discount categories based on the rental dates.</p>
 
 </div>
 </div>
